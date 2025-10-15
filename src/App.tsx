@@ -1,13 +1,14 @@
-import { GlobalStyles } from "./styles/GlobalStyles"
+import  {GlobalStyles}  from "./styles/GlobalStyles"
+import {Header} from "./components/Header"
+import {Orders} from './components/Order'
 
 export default function App(){
 
   return (
    <>
    <GlobalStyles />
-   <h1>
-    BEM VINDO A OFICINA DO PROF LUCAS
-  </h1>
+   <Header />
+   <Orders />
   </>
   )
 
